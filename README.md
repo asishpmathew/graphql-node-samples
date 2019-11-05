@@ -27,7 +27,7 @@ Demo
 -The rest endpoints can be viewed here
 
 ```sh
-  1. http://localost/api/users
-  2. http://localost/api/projects
-  3. http://localost/api/tasks
+  1. http://localhost/api/users
+  2. http://localhost/api/projects
+  3. http://localhost/api/tasks
   ```
