@@ -30,5 +30,3 @@ sequelize.sync();
 // sequelize.sync({ force: true }).then(() => seed(sequelize));
 
 export default sequelize;
-
-hi
