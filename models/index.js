@@ -11,6 +11,7 @@ const sequelize = new Sequelize(null, null, null, {
   logging: false
 });
 
+
 User(sequelize);
 Project(sequelize);
 Task(sequelize);
@@ -24,7 +25,10 @@ Object.keys(models).forEach(name => {
 });
 
 sequelize.sync();
+
 // Uncomment the line if you want to rerun DB seed
 // sequelize.sync({ force: true }).then(() => seed(sequelize));
 
 export default sequelize;
+
+hi
